@@ -41,9 +41,8 @@ em{font-style:normal;color:var(--forest)}
 .brand{display:inline-flex;align-items:center;gap:14px;min-width:220px}
 .brand-logo{display:block;width:auto;height:58px;object-fit:contain}
 .brand-divider{display:block;width:1px;height:42px;background:linear-gradient(180deg,transparent,rgba(84,75,143,.58),transparent)}
-.brand-company{display:flex;align-items:center;gap:10px;white-space:nowrap}
-.brand-company-prefix{display:inline-flex;align-items:center;justify-content:center;height:25px;padding:0 8px;border:1px solid rgba(84,75,143,.28);color:#5b548d;font-size:10px;font-weight:700;letter-spacing:.04em}
-.brand-company strong{font-size:25px;font-weight:800;letter-spacing:-.045em;line-height:1;background:linear-gradient(100deg,#4f4787 0%,#776f9b 48%,#43584f 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 7px 20px rgba(78,69,132,.1)}
+.brand-company{display:flex;align-items:center;white-space:nowrap}
+.brand-company strong{font-size:32px;font-weight:800;letter-spacing:-.055em;line-height:1.12;background:linear-gradient(100deg,#4f4787 0%,#776f9b 48%,#43584f 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 7px 20px rgba(78,69,132,.1)}
 .brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px 12px 12px 4px;background:var(--forest);color:var(--cream);font-family:Georgia,serif;font-size:25px;font-weight:700;line-height:1}
 .brand-copy{display:flex;flex-direction:column;line-height:1.15}
 .brand-copy strong{font-family:Georgia,"Times New Roman",serif;font-size:20px;letter-spacing:.05em;color:var(--forest-deep)}
