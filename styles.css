@@ -300,6 +300,8 @@ input::placeholder,textarea::placeholder{color:#a0a6a0}
 .certification-intro h2{font-size:58px;color:white}
 .certification-intro h2 em{color:#d9e5df}
 .certification-intro>p:last-child{margin:30px auto 70px;color:#c0d0c8;font-size:15px}
+.certification-overview{width:min(960px,calc(100% - 64px));margin:0 auto;padding:16px;background:#fff;border:1px solid rgba(255,255,255,.55);box-shadow:0 30px 70px rgba(0,33,27,.2);overflow:hidden}
+.certification-overview img{display:block;width:100%;height:auto}
 .certification-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.34);border-left:1px solid rgba(255,255,255,.34);text-align:left}
 .certification-card{min-height:310px;padding:32px 30px;border-right:1px solid rgba(255,255,255,.34);border-bottom:1px solid rgba(255,255,255,.34);transition:.3s}
 .certification-card:hover{background:white;color:#005346;transform:translateY(-6px)}
